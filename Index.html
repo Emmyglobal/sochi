@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #DDDDDD;
+        }
+        .header{
+            background-color: gray;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;   
+            gap: 20px;        
+        }
+        .middle{
+            background-color: orangered;
+            height: 30px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .middle ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            list-style-type: none;
+        }
+        a{
+           text-decoration: none;
+           color: white;
+        }
+        .section{
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 2px 4px fuchsia;
+            width: 95%;
+            /* margin: 20px; */
+            padding: 20px;
+            background-color: white;
+            border-radius:5px;
+            margin-top: 10px;
+        }
+        .section h1{
+            border-bottom: 2px solid orangered;
+            margin: 10px;
+        }
+        .section img{
+            height: 150px;
+            width: 150px;
+            margin-left: 30%;
+            border-radius: 50%;
+            border: orangered 2px solid;
+        }
+        .header img{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            text-align: center;
+            border-bottom: 10px;
+            border: 2px solid orangered;
+        }
+        .Projects{
+            background-color: white;
+            width: 95%;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .Projects h1{
+            border-bottom: 2px solid orangered;
+            margin: 10px
+        }
+        .Projects ul{
+            list-style-type: none;
+            margin-left: 10px;
+        }
+        h2{
+            color: orangered;
+        }
+        .Skills{
+            width: 95%;
+            background-color: white;
+            margin-top: 10px;
+            border-radius: 5px;
+            padding-left: 5px;
+        }
+        .Skills ul{
+            list-style-type: none;
+        }
+        .chacha{
+            border-bottom: 2px solid orangered;
+            margin: 10px;
+        }
+        button{
+            background-color: orangered;    
+            color: white;
+            border: none;
+            height: 40px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .frimpong{
+            border-bottom: 2px solid orangered;
+        }
+        .contact{
+            width: 95%;
+            background-color: white;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 20px;
+        }
+        input{
+            height: 50px;
+            width: 80%;
+            background-color: white;
+            margin: 20px;
+            border-radius: 2px;
+            border: 2px solid sienna;
+        }
+        textarea{
+            height: 300px;
+            width: 80%;
+            background-color: lightgoldenrodyellow;
+        }
+        /* .container2{
+             font-size: 1.5rem;
+             color: orangered;
+             gap: 5px;
+             margin: 30px;
+             padding: 20px;
+        }
+        .container3{
+            font-size: 1.5rem;
+            color: orangered;
+            gap: 5px;
+            margin: 30px;
+            padding: 30px;
+        }
+        .contact{
+            font-size: 1.5rem;
+            color: green;
+            gap: 40px;
+            margin: 40px;
+            padding: 40px; 
+        }
+        .draco{
+            color: black;
+            border-bottom: 2px solid orangered;
+            padding: 10px;
+            margin: 10px;
+        }
+        .chacha{
+            color: black;
+            border-bottom: 2px solid orangered;
+            padding: 10px;
+            margin: 10px;
+        }
+        .frimpong{
+            color: black;
+            border-bottom: 2px solid orangered;
+            padding: 10px;
+            margin: 10px;  
+        }
+        input{
+            height: 40px;
+            width: 400px;
+        }
+        .textarea{
+            height: 120px;
+            width: 400px;
+        }
+        button{
+            height: 50px;
+            width: 200px;
+            color: white;
+            background-color: brown;
+        } */ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rio Ngumoha</h1>
+            <p>Web Designer and developer</p>
+        </div>
+        <div class="middle">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h1>About Me</h1>
+            <img src="pics\WIN_20250901_12_30_38_Pro.jpg" alt="freak">
+            <p>Hello! I'm Michael Kaiser, a passionate footballer with experience in professional footballing. I love breaking ankles when im dribbling and i like injuring people</p>
+            <br><p>When I'm not coding, you can find me gaming, watching and playing football and reading books </p>
+        </div>
+        <div class="Projects">
+            <br><h1 class="draco">My projects</h1>
+            <ul>
+                <li><h2>Personal Blog</h2></li>
+                <p>A responsive blog built with HTML and CSS. Features include a clean lay-out and easy navigation</p>
+                <br>
+                <hr>
+                <li><h2>E-commerce Store</h2></li>
+                <p>A simple online store front page showcasing products with categories and a shopping cart</p>
+                <br>
+                <hr>    
+                <li><h2>Portfolio website</h2></li>
+                <p>A portfolio website for creative professionals to showcase their work</p>
+            </ul>
+        </div>
+        <div class="Skills">
+            <br><h1 class="chacha">Skills</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS3</li>
+                <li>Responsive design</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <header><h1 class="frimpong">Contact me</h1></header>
+            <form action="index.html">
+                <br><input type="text"placeholder="Your name" style="border: none;">
+                <br><input type="text" placeholder="Your E-mail"  style="border: none;">
+                <br><textarea name="" id="" size="50" height="120px" width="600px" style="border: none;">Enter your Message</textarea>
+                <br><button>Send Message</button>
+            </form>
+        </div>
+    </div>   
+</body>
+</html>
